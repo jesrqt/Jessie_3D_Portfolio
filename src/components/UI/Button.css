@@ -1,0 +1,29 @@
+.basic-button {
+    /* width: 12.5rem; */
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: var(--orange);
+    box-shadow: 0 15px 10px rgba(251, 200, 33, 0.5);
+    margin-top: 1rem;
+    transition: all 0.3s;
+}
+
+.basic-button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.basic-button:hover {
+    background-color: var(--blue);
+    box-shadow: 0 15px 10px rgba(26, 138, 227, 0.5);
+}
+
+.basic-button:active {
+    position: relative;
+    top: 10px;
+    box-shadow: 0 5px 10px rgba(26, 138, 227, 0.5);
+}

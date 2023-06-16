@@ -1,0 +1,28 @@
+.bloglist-container {
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloglist-components-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1280px;
+}
+
+@media only screen and (max-width: 760px) {
+    .bloglist-components-container {
+        width: 90%;
+    }
+}
+
+.blog-title-search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

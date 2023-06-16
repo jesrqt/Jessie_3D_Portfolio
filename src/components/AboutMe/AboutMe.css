@@ -1,0 +1,73 @@
+/* About Me */
+#about-me {
+    margin-top: 5rem;
+  }
+  
+  .about-me-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .jessie-img-about-me {
+    background-image: url("/public/image/Jessie_about_me_image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+  }
+  
+  .about-me-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .self-desc {
+    width: 70%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+    margin-left: 2rem;
+  }
+  
+  .self-desc p {
+    line-height: 2;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .about-me-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .jessie-img-about-me {
+      width: 200px;
+      height: 200px;
+      z-index: 2;
+    }
+  
+    .self-desc {
+      position: relative;
+      top: -3rem;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .self-desc p {
+      text-align: center;
+      padding: 2rem 3rem 1rem 3rem;
+      line-height: 1.5;
+    }
+  
+    .about-me-button {
+      margin: 0 0 2rem 0;
+    }
+  }

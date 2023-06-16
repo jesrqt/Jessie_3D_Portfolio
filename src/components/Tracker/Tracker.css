@@ -1,0 +1,51 @@
+/* Tracker below About Me */
+.tracker-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tracker-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tracker {
+    max-width: 25%;
+    margin-top: 2rem;
+    display: flex;
+  }
+  
+  .tracker-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+  }
+  
+  .tracker h3 {
+    color: var(--orange);
+    text-shadow: 0 0 5px var(--yellow);
+    margin: 0;
+  }
+  
+  .tracker p {
+    margin: 0;
+  }
+  
+  .tracker-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .tracker {
+      margin-top: 1rem;
+    }
+    
+    .tracker i {
+      font-size: 2rem;
+      color: var(--primary-color);
+    }
+  }
+  

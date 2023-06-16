@@ -1,0 +1,120 @@
+/* Hero */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5rem;
+  }
+  
+  .hero-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero-description {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  main h1 span {
+    color: var(--orange);
+  }
+  
+  main p {
+    line-height: 1.5;
+    margin: 2rem 0;
+  }
+  
+  .jessie-image {
+    width: 50%;
+    height: auto;
+    background-image: url("/public/image/Jessie_Hero.webp ");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .github-button {
+    background-color: var(--orange);
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 15px 10px rgba(251, 200, 33, 0.5);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .github-button a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .github-button h4 {
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 1rem;
+  }
+  
+  .github-icon {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+    padding-right: 1rem;
+  }
+  
+  .github-button:hover {
+    background-color: var(--blue);
+    box-shadow: 0 15px 10px rgba(26, 138, 227, 0.5);
+  }
+  
+  .github-button:active {
+    position: relative;
+    top: 10px;
+    box-shadow: 0 5px 10px rgba(26, 138, 227, 0.5);
+  }
+  
+  @media only screen and (min-width: 760px) and (max-width: 1000px) {
+    .hero-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .hero-description {
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  
+    .jessie-image {
+      height: 400px;
+      width: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .hero-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .hero-description {
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  
+    .jessie-image {
+      width: auto;
+      height: 350px;
+    }
+    .github-button i {
+      font-size: 2rem;
+    }
+  }
+  

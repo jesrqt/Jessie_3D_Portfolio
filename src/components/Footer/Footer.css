@@ -1,0 +1,9 @@
+  /* Footer */
+  
+  footer {
+    padding: 4rem 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
